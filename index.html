@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Calendar — синхронізація судових засідань</title>
+<meta name="description" content="Calendar — інструмент синхронізації дат судових засідань у Google Calendar користувача.">
+<style>
+  :root { --bg:#ffffff; --fg:#1f2328; --muted:#59636e; --line:#d1d9e0; --link:#0969da; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#0d1117; --fg:#e6edf3; --muted:#9198a1; --line:#30363d; --link:#4493f8; } }
+  body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; }
+  main { max-width:760px; margin:0 auto; padding:40px 16px 56px; }
+  h1 { font-size:28px; margin:0 0 4px; }
+  h2 { font-size:20px; margin:32px 0 8px; }
+  .muted { color:var(--muted); }
+  a { color:var(--link); }
+  hr { border:0; border-top:1px solid var(--line); margin:36px 0; }
+  footer { font-size:14px; color:var(--muted); }
+</style>
+</head>
+<body>
+<main>
+  <h1>Calendar</h1>
+  <p class="muted">Синхронізація дат судових засідань із Google Calendar</p>
+
+  <p>Calendar — це настільна програма для Windows, якою користуються юристи для обліку своїх судових справ. Програма бере розклад судових засідань із відкритих даних судової влади України (data.gov.ua) і порівнює його з реєстром справ користувача (файл Excel на його комп'ютері).</p>
+
+  <p>Для справ, які знайдено в реєстрі, програма створює, оновлює або видаляє події в Google Calendar самого користувача. Так дата, час, суд і номер справи потрапляють у календар автоматично.</p>
+
+  <p>Доступ до Google Calendar потрібен лише для роботи з подіями судових засідань. Програма працює локально на комп'ютері користувача, не має власного сервера і нікому не передає дані з облікового запису Google.</p>
+
+  <p>Детально про те, які дані обробляються: <a href="privacy.html">Політика конфіденційності</a>.</p>
+
+  <p>Контакт розробника: <a href="mailto:minyayloleksandr@gmail.com">minyayloleksandr@gmail.com</a></p>
+
+  <hr>
+
+  <h2>About (English)</h2>
+  <p>Calendar is a Windows desktop application for lawyers. It reads public court hearing schedules from Ukrainian open data (data.gov.ua), matches them against the user's own case registry (a local Excel file), and creates, updates or deletes the corresponding hearing events in the user's own Google Calendar.</p>
+  <p>Google Calendar access is used only to manage these hearing events. The app runs locally on the user's computer, has no server of its own, and does not share Google user data with anyone.</p>
+  <p>See the <a href="privacy.html">Privacy Policy</a>. Contact: <a href="mailto:minyayloleksandr@gmail.com">minyayloleksandr@gmail.com</a></p>
+
+  <hr>
+  <footer>© 2026 Oleksandr Minyailo · <a href="privacy.html">Privacy Policy</a></footer>
+</main>
+</body>
+</html>
